@@ -1,0 +1,369 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.gohome {
+	font-size: 1.2rem;
+	font-weight: 900;
+	color: #FF9900;
+	background-color: #F8F8F8;
+	border-radius: 15px;
+	padding: 15px;
+	display: inline-block;
+}
+body {
+	position: relative;
+}
+footer {
+	position: absolute;
+	bottom: 0;
+}
+.footer {
+	background-color: #dedede;
+	height: 50px;
+	width: 100vw;
+	text-align: center;
+	line-height: 50px;
+}
+
+button {
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+
+.main-line-height {
+	line-height: 20px;
+}
+
+.container {
+	width: 70vw;
+	margin: 0 auto;
+}
+
+.container-category {
+	background-color: #F8F8F8;
+}
+
+.div-margin {
+	margin: 10px;
+}
+
+.div-padding {
+	padding: 20px;
+	margin-top: 50px;
+}
+
+.btn-img {
+	width: 5vw;
+	height: 5vw;
+	overflow: hidden;
+}
+
+.b-radius {
+	border-radius: 50%;
+}
+
+.div-display-lnlineBlock {
+	display: inline-block;
+}
+
+.display-flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.display-flex-hospital {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.font-weight {
+	font-size: 1.4rem;
+	font-weight: 900;
+}
+
+.font-small {
+	font-size: 0.8rem;
+}
+
+.page-select-font-color {
+	color: #FF9900;
+	font-weight: 900;
+}
+
+.font-color {
+	color: #FF9900;
+}
+.logout-btn:hover {
+	border-bottom: 1px solid #FF9900;
+	font-weight: 900;
+}
+.display-flex-center {
+	display: flex;
+	align-items: center;
+}
+.display-flex-around {
+	display: flex;
+	justify-content: space-around;
+}
+
+.mini-container {
+	width: 30vw;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.text-center {
+	text-align: center;
+	font-weight: 900;
+}
+
+.bc-purple {
+	background-color: #F2EFF6;
+}
+
+.text-part {
+	background-color: #2C2B71;
+	border-radius: 10px;
+	padding: 5px;
+	color: #fff;
+}
+
+.login-input {
+	width: 90%;
+	height: 6vh;
+	margin: 3px 0 10px 0;
+}
+
+.login-input-short {
+	width: 60%;
+	height: 6vh;
+	margin: 3px 5px 0 0;
+}
+
+.input-check {
+	display: inline-block;
+	width: 30%;
+	height: 6vh;
+	border: 1px solid #CFCFCF;
+	background-color: #FAFAFA;
+	border-radius: 10px;
+	line-height: 6vh;
+	cursor: pointer;
+}
+
+.lr-box {
+	margin-top: 70px;
+}
+
+.login-button {
+	width: 90%;
+	height: 6vh;
+	margin-top: 20px;
+	background-color: #FFDDAA;
+	border-radius: 10px;
+	font-size: 1.3rem;
+	font-weight: 900;
+}
+
+.div-margin-auto {
+	margin: 20px auto;
+}
+
+.img-width {
+	width: 200px;
+}
+
+.lr-text {
+	margin: 20px;
+}
+
+.regist-container p {
+	font-size: 1.1rem;
+	font-weight: 500;
+	color: #000000;
+	opacity: 0.6;
+	margin-left: 25px;
+	text-align: left;
+}
+
+.adress-short {
+	width: 60%;
+	height: 6vh;
+	margin-top: 10px;
+}
+
+.adress-btn {
+	border: none;
+	background: none;
+	cursor: pointer;
+	border: 1px solid #CFCFCF;
+	background-color: #FAFAFA;
+	font-size: 1rem;
+	border-radius: 10px;
+	width: 30%;
+	height: 6vh;
+	margin-top: 10px;
+}
+
+.header-margin-top {
+	margin-top: 10px;
+}
+
+.adress-box {
+	margin: 10px 0;
+}
+
+.input-div-box {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.input-radio:checked {
+	background-color: #FF9900;
+}
+
+.adress-long {
+	width: 90%;
+	height: 6vh;
+	margin-top: 10px;
+}
+
+.regist-button {
+	display: inline-block;
+	width: 44%;
+	height: 6vh;
+	margin-top: 10px;
+	background-color: #FFDDAA;
+	border-radius: 10px;
+	font-size: 1.6rem;
+	font-weight: 600;
+	line-height: 6vh;
+}
+
+#symptom-display {
+	display: none;
+}
+
+#disease-display {
+	display: none;
+}
+
+#map-display {
+	display: none;
+}
+
+.part-box div {
+	margin: 5px auto;
+	border: 1px solid #bbbbbb;
+	border-radius: 20px;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.check-button {
+	display: inline-block;
+	width: 150px;
+	height: 6vh;
+	background-color: #FFDDAA;
+	border-radius: 10px;
+	font-size: 1.4rem;
+	font-weight: 600;
+	line-height: 6vh;
+	margin: 10px 0;
+}
+
+.part-box div, .display-flex-hospital span {
+	cursor: pointer;
+}
+
+.ptag {
+	display: inline-block;
+	float: left;
+}
+
+#error_name, #error_id, #error_password_check {
+	color: red;
+	font-size: 0.7rem;
+	line-height: 25px;
+	float: left;
+	height: 20px;
+	width: 210px;
+}
+
+#error_login_id {
+	color: red;
+	font-size: 0.7rem;
+	line-height: 25px;
+	float: left;
+	height: 20px;
+	width: 210px;
+	margin-left: 30px;
+}
+
+.gender-div {
+	display: inline-block;
+	width: 44%;
+	height: 6vh;
+	background-color: #F5F5F5;
+	border-radius: 10px;
+	font-size: 1.6rem;
+	font-weight: 600;
+	line-height: 6vh;
+	cursor: pointer;
+}
+
+.not-error-name, .not-error-id, .not-error-passwordchk, .not-login-id {
+	visibility: hidden;
+}
+
+@media only screen and (max-width:1300px) {
+	.mini-container {
+		width: 50vw;
+		margin: 0 auto;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width:1000px) {
+	.display-none {
+		display: none;
+	}
+	.display-flex-center {
+		display: inline-block;
+		margin: 0 auto;
+	}
+	.container {
+		width: 100vw;
+	}
+	.font-weight {
+		font-size: 1.7rem;
+		font-weight: 900;
+	}
+	.font-small {
+		font-size: 0.8rem;
+	}
+	.btn-img {
+		width: 15vw;
+		height: 15vw;
+		overflow: hidden;
+	}
+}
+
+@media only screen and (max-width:650px) {
+	.mini-container {
+		width: 100vw;
+		margin: 0 auto;
+		text-align: center;
+	}
+}
